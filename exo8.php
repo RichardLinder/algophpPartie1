@@ -21,3 +21,16 @@ for ($i=0; $i <11 ; $i++) {
     echo "$i"."X".$nombre." "."=".$value." "."</li>";
 }
 echo "</ul>";
+
+
+for ($i=0; $i <11 ; $i++) ;
+
+
+$i=0;
+while ($i<11) { 
+    echo "<li>";
+    $value = $nombre *$i;
+    echo "$i"."X".$nombre." "."=".$value." "."</li>";
+    $i++;
+}
+echo "</ul>";
