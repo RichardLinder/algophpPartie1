@@ -7,6 +7,6 @@
 <h2>Resultat</h2>
 <!-- balise php -->
 <?php 
-$Textteste = "Notre formation DL commence aujourd’hui";
+$textTeste = "Notre formation DL commence aujourd’hui";
 $LongeurTexte =str_word_count($Textteste);
 echo "La phrase \"$Textteste\" contient $LongeurTexte Mots.";

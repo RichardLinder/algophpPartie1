@@ -13,22 +13,37 @@ $deux=0;
 $prix=152;
 $versé=200;
 $rendu= $versé-$prix;
+$reste =$rendu;
 
-division entière*******************************************************************************************************************************************************************
+while ($reste >= 10) {
+  
+       $reste -= 10;
+        $dix++;
+       
+  
+    }
 
-$reste= $rendu;
+    if ($rendu>=5) {
+        $reste -= 5;
+        $cinq++;
+        
+        } 
+while ($reste >= 2) {
+  
+        $reste -=2;
+        $deux++;
+        
+        } 
 
+// $dix== $reste % 10;
 
+// $reste== $rendu-(10*$dix);
 
-$dix== $reste % 10;
+// $cinq==$reste%5;
+// $reste== $rendu-(5-$cinq);
 
-$reste== $rendu-(10*$dix);
-
-$cinq==$reste%5;
-$reste== $rendu-(5-$cinq);
-
-$deux==$reste%2;
-$reste== $rendu-(2*$deux);
+// $deux==$reste%2;
+// $reste== $rendu-(2*$deux);
 
 echo "Montant à payer : $prix €<br>;";
 echo "Montant versé : $versé €<br>;";
